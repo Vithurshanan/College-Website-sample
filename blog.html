@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universit Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png" alt=""></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1 >Our Certificate & Online Programs For 2024</h1>
+    </section>
+
+      <!--blog page content-->
+
+      <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="eduford_img/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2024</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id enim vitae officiis nostrum, asperiores magni perspiciatis explicabo nesciunt odio earum! Eos architecto deserunt veniam? Amet consectetur ad nulla vel porro!</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, recusandae rem! Amet assumenda, nesciunt laudantium iste ullam in fugit fuga vel ipsum, illum ea labore pariatur porro est accusamus adipisci. odio ullam aspernatur, nihil officiis corporis laudantium iste ut quae culpa harum similique maxime laboriosam ducimus autem unde facere cum quos!</p>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum ea unde eveniet. Rem alias hic excepturi, nam sed quibusdam voluptate qui odit dolore recusandae minus, sapiente reiciendis odio ipsam consectetur?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi earum architecto ut accusantium saepe, excepturi iste quasi dolorem placeat non praesentium voluptatum. Temporibus consequuntur quisquam esse obcaecati, dolorem voluptas praesentium!</p>
+                <br>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form action="https://api.web3forms.com/submit" method="POST" class="comment-form">
+                        <input type="hidden" name="access_key" value="0070db39-425a-4aa4-bbd4-e3d45f294436">
+                        <input type="text" placeholder="Enter Name" name="name">
+                        <input type="email" placeholder="Enter Email" name="email">
+                        <textarea  rows="5" placeholder="Your Comment" name="message"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+                </div>
+            </div>                                  
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAO</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+      </section>
+ 
+
+
+  <!--Footer-->
+
+  <section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem soluta cum atque a <br>speriores obcaecati aspernatur quasi consequatur. Numquam incidunt culpa nostrum nisi? </p>
+    <div class="icons">
+        <i class="fa fa-google"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        </div>
+
+<div>
+    <p>Made By <i class="fa fa-heart-o"></i> Vithu</p>
+</div>
+
+  </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+            
+        }
+       
+        
+    </script>
+</body>
+</html>
